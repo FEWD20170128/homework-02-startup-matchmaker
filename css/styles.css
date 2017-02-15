@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: arial, sans-serif;
+  margin: 10 auto;
+  overflow: auto;
+  width: 960px;
+}
+
+h1 {
+  color: yellow;
+  text-align: left;
+  background-color: black;
+  font-family: times, sans-serif;
+}
+
+header {
+  background-color: black;
+  padding: 10px;
+  border-bottom: 5px yellow solid;
+}
+
+nav {
+  background-color: black;
+  color: white;
+  text-align: right;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+  font-family: impact;
+  letter-spacing: 1.5px;
+}
+
+.header {
+  text-transform: uppercase;
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+.sub-header {
+  background-color: lightgrey;
+  padding: 5px;
+}
+
+.sub-header h2 {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  font-family: times, sans-serif;
+}
+
+.underline {
+  text-decoration: underline;
+  text-decoration-color: yellow;
+  display: inline;
+}
+
+.cross-out {
+  text-decoration: line-through;
+  display: inline;
+  color: grey;
+}
+
+.main {
+  background-image: url("../images/coworking.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 400px;
+  background-size: cover;
+}
+
+aside {
+  border: 1px black solid;
+  background-color: white;
+  opacity: .8;
+  float: right;
+  width: 40%;
+  margin: 10px;
+  padding: 5px 15px;
+  text-align: left;
+}
+
+aside h3 {
+  text-align: center;
+  font-size: 26px;
+}
+
+.callout {
+  background-color: yellow;
+  border-bottom: 2px yellow;
+  color: black;
+  text-transform: uppercase;
+  opacity: 2;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0px 5px 5px #888888;
+  border-radius: 5px;
+  height: 50%;
+  font-weight: bolder;
+}
+
+.callout a {
+  text-decoration: none;
+  color: black;
+}
+
+article {
+  float: left;
+  width: 33%;
+  border-left: 1px grey solid;
+  padding: 15px;
+  margin: 5px 0px;
+  background-color: white;
+}
+
+article h4 {
+  font-family: times, sans-serif;
+  font-size: 22px;
+  margin: 5px 10px 15px 10px;
+}
+
+article p {
+  margin: 10px;
+}
+
+.article-callout {
+  background-color: lightgrey;
+  margin-top: 20px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  margin-top: 15px;
+  float: left;
+  width: 100%;
+}
