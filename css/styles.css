@@ -2,45 +2,152 @@
   box-sizing: border-box;
 }
 
-h1 {
+.container {
+  margin: 0 auto;
+  overflow: auto;
+}
 
-  margin-left: 15px;
+header {
+  background: black;
+  padding-top: 20px;
+}
+
+h1 {
+  margin-left: 20px;
   color: yellow;
   font-family: Georgia;
   font-weight: bold;
-
+  font-size: 35px;
 }
 
 nav {
-
-  float: right;
-  margin-right: 40px;
+  text-align: right;
   font-size: 20px;
-
+  padding-bottom: 10px;
 }
 
-.header {
+.caplinks {
+  font-family: impact;
+  text-transform: uppercase;
+  font-size: 25px;
+}
 
-  background-color: black;
-
+a {
+  text-decoration: none;
+  margin-right: 20px;
+  font-family: verdana;
+  color: white;
 }
 
 h2 {
-
   float: left;
   border-top: 5px yellow solid;
-  margin-top: 30px;
+  margin-top: 0px;
   width: 100%;
   text-align: center;
   padding: 40px 40px;
   background-color: lightgrey;
   margin-bottom: 0px;
-
+  font-style: italic;
+  font-family: georgia;
 }
 
-img {
+.taste {
+  color: grey;
+  text-decoration: line-through;
+  font-family: georgia;
+  font-style: italic;
+}
 
+.are {
+  border-bottom: solid yellow 3px;
+}
+
+.middle {
+  background-image: url("../images/coworking.jpg");
+  height: 600px;
   width: 100%;
-  height: 100%;
-
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
+
+.sidebar {
+  width: 25%;
+  font-family: helvetica;
+  font-size: 23px;
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-size: 28px;
+  font-family: helvetica;
+}
+
+.information {
+  font-family: helvetica;
+  font-size: 25px;
+  text-align: left;
+}
+
+.createprofile {
+  clear: right;
+  width: 30%;
+  float: left;
+  margin-left: 3%;
+  border-right: 1px solid grey;
+  margin-bottom: 10px;
+}
+
+.finddeveloper {
+  float: left;
+  width: 30%;
+  margin-left: 2%;
+  border-right: 1px solid grey;
+  margin-right: 1%;
+}
+
+.finddesigner {
+  float: left;
+  width: 30%;
+  margin-left: 3%;
+}
+
+.container {
+  margin: 0 auto;
+  overflow: auto;
+}
+
+footer {
+  clear: left;
+  background-color: black;
+  color: white;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding-top: 5px;
+  padding-left: 20px;
+  font-size: 17px;
+}
+
+button {
+  text-align: center;
+  font-weight: bold;
+  background-color: grey;
+  display: inline-block;
+  border-radius: 10px;
+  font-family: tahoma;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.profilebutton {
+  background-color: yellow;
+}
+
