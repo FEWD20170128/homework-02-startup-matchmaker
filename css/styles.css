@@ -17,19 +17,19 @@ h1 {
   color: yellow;
   font-family: Georgia;
   font-weight: bold;
-  font-size: 35px;
+  font-size: 40px;
 }
 
 nav {
   text-align: right;
-  font-size: 20px;
+  font-size: 25px;
   padding-bottom: 10px;
 }
 
 .caplinks {
   font-family: impact;
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 a {
@@ -50,6 +50,7 @@ h2 {
   margin-bottom: 0px;
   font-style: italic;
   font-family: georgia;
+  font-size: 30px;
 }
 
 .taste {
@@ -79,7 +80,7 @@ h2 {
   float: right;
   margin-right: 20px;
   margin-top: 20px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.70);
   padding-right: 20px;
   padding-left: 20px;
   padding-bottom: 20px;
@@ -94,6 +95,7 @@ h3 {
   font-family: helvetica;
   font-size: 25px;
   text-align: left;
+  margin-top: 10px;
 }
 
 .createprofile {
@@ -119,35 +121,44 @@ h3 {
   margin-left: 3%;
 }
 
-.container {
-  margin: 0 auto;
-  overflow: auto;
+.h3bottom {
+  font-family: garamond;
+  font-size: 35px;
+}
+
+.pbottom {
+  font-size: 25px;
+  margin-top: 5px;
 }
 
 footer {
   clear: left;
   background-color: black;
   color: white;
-  height: 50px;
-  margin-top: 20px;
-  margin-left: 20px;
+  height: 70px;
   padding-top: 5px;
   padding-left: 20px;
+  padding-bottom: 20px;
   font-size: 17px;
+  font-family: verdana;
 }
 
 button {
   text-align: center;
   font-weight: bold;
-  background-color: grey;
+  background-color: lightgrey;
   display: inline-block;
   border-radius: 10px;
   font-family: tahoma;
   text-transform: uppercase;
   font-size: 20px;
+  padding: 15px 25px 15px 25px;
+  margin-bottom: 10px;
 }
 
 .profilebutton {
   background-color: yellow;
+  padding-left: 30px;
+  margin-left: 15px;
 }
 
