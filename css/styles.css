@@ -100,25 +100,28 @@ h3 {
 
 .createprofile {
   clear: right;
-  width: 30%;
+  width: 28%;
   float: left;
-  margin-left: 3%;
+  margin-left: 4%;
   border-right: 1px solid grey;
   margin-bottom: 10px;
+  padding-right: 2%;
 }
 
 .finddeveloper {
   float: left;
-  width: 30%;
-  margin-left: 2%;
+  width: 28%;
+  margin-left: 4%;
   border-right: 1px solid grey;
-  margin-right: 1%;
+  margin-right: 3%;
+  padding-right: 2%;
 }
 
 .finddesigner {
   float: left;
-  width: 30%;
-  margin-left: 3%;
+  width: 28%;
+  margin-left: 1%;
+  padding-right: 2%;
 }
 
 .h3bottom {
@@ -139,7 +142,7 @@ footer {
   padding-top: 5px;
   padding-left: 20px;
   padding-bottom: 20px;
-  font-size: 17px;
+  font-size: 20px;
   font-family: verdana;
 }
 
@@ -149,7 +152,7 @@ button {
   background-color: lightgrey;
   display: inline-block;
   border-radius: 10px;
-  font-family: tahoma;
+  font-family: "Futura";
   text-transform: uppercase;
   font-size: 20px;
   padding: 15px 25px 15px 25px;
