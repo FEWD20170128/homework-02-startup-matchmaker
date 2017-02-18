@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  overflow: auto;
+}
+
+header {
+  background: black;
+  padding-top: 20px;
+}
+
+h1 {
+  margin-left: 20px;
+  color: yellow;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+nav {
+  text-align: right;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+.caplinks {
+  font-family: impact;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  margin-right: 20px;
+  font-family: verdana;
+  color: white;
+}
+
+h2 {
+  float: left;
+  border-top: 5px yellow solid;
+  margin-top: 0px;
+  width: 100%;
+  text-align: center;
+  padding: 40px 40px;
+  background-color: lightgrey;
+  margin-bottom: 0px;
+  font-style: italic;
+  font-family: georgia;
+  font-size: 30px;
+}
+
+.taste {
+  color: grey;
+  text-decoration: line-through;
+  font-family: georgia;
+  font-style: italic;
+}
+
+.are {
+  border-bottom: solid yellow 3px;
+}
+
+.middle {
+  background-image: url("../images/coworking.jpg");
+  height: 600px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.sidebar {
+  width: 25%;
+  font-family: helvetica;
+  font-size: 23px;
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.70);
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-size: 28px;
+  font-family: helvetica;
+}
+
+.information {
+  font-family: helvetica;
+  font-size: 25px;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.createprofile {
+  clear: right;
+  width: 28%;
+  float: left;
+  margin-left: 4%;
+  border-right: 1px solid grey;
+  margin-bottom: 10px;
+  padding-right: 2%;
+}
+
+.finddeveloper {
+  float: left;
+  width: 28%;
+  margin-left: 4%;
+  border-right: 1px solid grey;
+  margin-right: 3%;
+  padding-right: 2%;
+}
+
+.finddesigner {
+  float: left;
+  width: 28%;
+  margin-left: 1%;
+  padding-right: 2%;
+}
+
+.h3bottom {
+  font-family: garamond;
+  font-size: 35px;
+}
+
+.pbottom {
+  font-size: 25px;
+  margin-top: 5px;
+}
+
+footer {
+  clear: left;
+  background-color: black;
+  color: white;
+  height: 70px;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-family: verdana;
+}
+
+button {
+  text-align: center;
+  font-weight: bold;
+  background-color: lightgrey;
+  display: inline-block;
+  border-radius: 10px;
+  font-family: "Futura";
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 15px 25px 15px 25px;
+  margin-bottom: 10px;
+}
+
+.profilebutton {
+  background-color: yellow;
+  padding-left: 30px;
+  margin-left: 20px;
+}
+
