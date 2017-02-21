@@ -49,17 +49,19 @@ header {
 	color: #7b7b7c;
 }
 
-.underline {
+.tagline .underline {
 	text-decoration: underline;
-	color: black;
-	text-decoration-color: yellow; 
+/*	color: black;
+*/	text-decoration-color: yellow; 
 }
 
 .hero {
-height: 600px;
+/*height: 600px;*/
 background-image: url("../images/coworking.jpg");
 background-repeat: no-repeat;
-background-image: width: 100%;
+/*background-image: width: 100%;
+*/clear: both;
+overflow: auto;
 }
 
 .herobox {
@@ -92,19 +94,27 @@ background-image: width: 100%;
 }
 
 .sections {
-	margin: 0 auto;
+	margin: 20px auto;
+	clear: both;
+	float: center;
+	overflow: auto;
 }
 
-.sections.button {
-	background-color: gray;
+.sections .button {
+	background-color: #b3b3b5;
 }
 
 .section1, .section2, .section3 {
 	float: left;
 	width: 27%;
+	margin-left: 20px;
+	padding-right:20px;
 }
 
-
+.section1, .section2 {
+	border-right: solid gray 1px;
+/*	padding-right: 20px;
+*/}
 
 footer {
 	background-color: black;
