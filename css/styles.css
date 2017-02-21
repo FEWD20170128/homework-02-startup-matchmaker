@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  overflow: auto;
+}
+footer {
+  background-color: black;
+  color: white;
+}
+
+nav {
+  text-align: right;
+}
+
+.section {
+  display: inline-block;
+  height: auto;
+  width: 350px;
+  background: white;
+  border-right: 2px solid #eeeeee;
+  color: black;
+  text-align: center;
+}
+
+aside {
+  float: right;
+}
