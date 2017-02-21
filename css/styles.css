@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+}
+
+h1 {
+  color: yellow;
+  padding: 10px;
+  font-family: georgia;
+  font-size: 50px;
+}
+
+.heading {
+  background-color: black;
+  border-bottom: 5px yellow solid;
+}
+
+.navigation {
+  position: relative;
+  top: 0px;
+  left: 550px;
+}
+.navigation a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+}
+
+.first {
+  font-weight: bold;
+  font-family: arial;
+}
+
+.second {
+  font-family: verdana;
+}
