@@ -104,7 +104,15 @@ button {
 }
 
 .strike-gray {
-  font-color: #A9A9A9;
+  color: #A9A9A9;
+  text-decoration: line-through;
+}
+
+
+.yellow-underline {
+  text-decoration: underline; 
+  color: black;
+  text-decoration-color: yellow;
 }
 
 .content {
