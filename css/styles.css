@@ -78,12 +78,12 @@ button {
   height: 50px;
   text-transform: uppercase;
   font-size: 20px; 
-
+  box-shadow: 5px 2px 2px #888888; 
 }
 
 #profile-button {
-  background-color: yellow;
-  
+  background-color: yellow; 
+  box-shadow: 5px 2px 2px #888888; 
 }
 
 .subheader {
@@ -108,7 +108,6 @@ button {
   text-decoration: line-through;
 }
 
-
 .yellow-underline {
   text-decoration: underline; 
   color: black;
@@ -122,21 +121,15 @@ button {
 
 .hero {
   height: 450px;
-  background-color: #eee;
+  background-color: white;
   border: 1px solid #333;
   width: 100%;
-  float: left;
-  background-image: url("images/coworking.jpg"); 
+  float: left; 
 }
 
-aside {
-  height: 400px;
-  background-color: #eee;
-  border: 1px solid #333;
-  width: 18%;
-  float: left;
+.image {
+  opacity: .5;
 }
-
 
 .section {
   height: 240px;
