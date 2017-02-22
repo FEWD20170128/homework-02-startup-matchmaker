@@ -86,7 +86,7 @@ span {
 
 .meetyourmatch {
   position: relative;
-  bottom: 950px;
+  bottom: 990px;
   left: -29px;
   float: right;
   width: 400px;
@@ -105,8 +105,7 @@ span {
 
 .meetyourmatch p {
   font-family: 'Roboto';
-  font-size: 23px;
- /* font-weight: bolder;*/
+  font-size: 27px;
   padding: 35px;
   padding-top: 0px;
   line-height: 35px;
@@ -115,9 +114,9 @@ span {
 
 .button {
   position: relative;
-  bottom: -30px;
-  left: 37px;
-  width: 300px;
+  bottom: 40px;
+  left: 28px;
+  width: 317px;
   height: 60px;
   margin: 12px;
   background-color: #FFFF00;
@@ -127,10 +126,10 @@ span {
   padding-top: 13px;
 }
 
-.button a {
+a {
   font-family: 'Anton', sans-serif;
   font-weight: lighter;
-  font-size: 25px;
+  font-size: 27px;
   color: black;
   text-decoration: none;
   text-transform: uppercase;
@@ -148,7 +147,7 @@ span {
   display: inline-block;
   width: 330px;
   border-right: solid .5px lightgrey;
-  padding: 14px 20px 30px 20px;
+  padding: 0px 20px 30px 20px;
   margin-top: 12px;
   margin-right: 13px;
 }
@@ -158,22 +157,42 @@ span {
   float: right;
   display: inline-block;
   width: 320px;
-  padding: 14px 20px 30px 20px;
+  padding: 0px 20px 30px 20px;
   margin-top: 12px;
   margin-right: 10px;
 }
 
 .subcontent h1 {
   font-family: 'Bree Serif', serif;
-  font-size: 39px;
+  font-weight: lighter;
+  font-size: 40px;
   
 }
 
 .subcontent p {
   font-family: 'Roboto';
-  font-size: 23px;
+  font-size: 27px;
   line-height: 35px;
 }
+
+.subcontent .button1 {
+position: relative;
+bottom: -30px;
+right: 13px;
+width: 280px;
+height: 60px;
+margin: 12px;
+background-color: #BFBEBF;
+box-shadow: 0.5px 4px #9C9C9C;
+border-radius: 7px;
+text-align: center;
+padding-top: 13px;
+font-family: 'Anton', sans-serif;
+font-weight: lighter;
+font-size: 25px;
+text-transform: uppercase;
+}
+
 
 
 
