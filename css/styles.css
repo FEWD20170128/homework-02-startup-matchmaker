@@ -2,10 +2,17 @@
   box-sizing: border-box;
 }
 
+body {
+  padding: 20px;
+  font-family: sans-serif;
+  background-color: #696969; 
+}
+
 .container {
   width: 960px;
   margin: 0 auto;
   overflow: auto;
+  background-color: black;
 }
 
 header {
@@ -15,48 +22,98 @@ header {
 }
 
 header .logo {
-  height: 100px;
-  background-color: #eee;
-  border: 1px solid #333;
-  width: 30%;
+  height: 50px;
+  background-color: black;
+  width: 40%;
   float: left;
+  font-weight: bolder; 
+  padding-left: 20px; 
+  padding-top: 25px;
+  font-size: 30px; 
+  color: yellow;
 }
 
 nav {
   width: 100%;
   overflow: auto;
+  font-family: sans-serif;
+  font-weight: bolder;
+  padding-left: 150px; 
+  font-size: 16px; 
+  color: white;
 }
 
-nav .nav-item {
-  background-color: #eee;
-  border: 1px solid #333;
+.nav-item-1 {
+  background-color: black;
+  float: left;
+  width: 17%;
+  height: 50px;
+  margin-left: 3%;
+  margin-top: 15px;
+  float: left;
+  font-family: sans-serif;
+  padding: 5px;
+  text-transform: uppercase;
+  letter-spacing: 0px; 
+}
+
+.nav-item-2 {
+  background-color: black;
   float: left;
   width: 15%;
   height: 50px;
   margin-left: 3%;
   margin-top: 15px;
-  float: right;
+  float: left;
+  font-family: sans-serif;
+  padding: 10px; 
+  letter-spacing: 0px; 
+
 }
 
+button {
+  background-color: #D3D3D3;
+  border: none;
+  width: 90%;
+  height: 50px;
+  text-transform: uppercase;
+  font-size: 20px; 
 
+}
+
+#profile-button {
+  background-color: yellow;
+  
+}
 
 .subheader {
   height: 85px;
-  background-color: #eee;
+  background-color: #D3D3D3;
   border-top: 3px solid yellow;
   margin-top: 15px;
   float: left;
   width: 960px;
+  border: 2px;
+  left-border: 2px;
+  right-border: 2px;
+  color: black;
+  font-style: italic;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.strike-gray {
+  font-color: #A9A9A9;
 }
 
 .content {
   width: 100%;
-  overflow: auto;
   clear: both;
 }
 
 .hero {
-  height: 500px;
+  height: 450px;
   background-color: #eee;
   border: 1px solid #333;
   width: 100%;
@@ -72,27 +129,26 @@ aside {
   float: left;
 }
 
-p {
-  font: garamond;
-}
 
 .section {
-  height: 175px;
-  background-color: #eee;
+  height: 240px;
+  background-color: white;
   border: 1px solid #333;
   float: left;
   width: 33.3%;
   margin-top: 15px;
+  padding: 20px;
 }
 
 .large-section {
-  height: 90%;
+  height: 85%;
   background-color: #eee;
   border: 1px solid #333;
   float: right;
   width: 40%;
   margin-right: 20px;
   margin-top: 20px;
+  padding: 20px;
 }
 
 .center-section {
@@ -102,9 +158,11 @@ p {
 
 footer {
   height: 75px;
-  background-color: #eee;
-  border: 1px solid #333;
+  background-color: black;
   margin-top: 15px;
+  padding: 15px;
   float: left;
   width: 960px;
+  color: white;
+  font-size: 20px;
 }
