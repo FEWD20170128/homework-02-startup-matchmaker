@@ -72,19 +72,24 @@ strike {
   color: #7F7F7F;
 }
 
+span {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #FFFF00;
+}
+
 .imgcontent {
   position: relative;
   width:100%;
-  height: 620px;
+  height: 580px;
   overflow: hidden;
 }
 
 .meetyourmatch {
   position: relative;
-  bottom: 618px;
+  bottom: 576px;
   left: 600px;
   width: 400px;
-  height: 571px;
+  height: 527px;
   background-color: rgba(255,255,255,0.8);
   box-shadow: 3px 3px 10px #555555;
 }
@@ -109,7 +114,7 @@ strike {
 
 .button {
   position: relative;
-  bottom: 20px;
+  bottom: -30px;
   left: 37px;
   width: 300px;
   height: 60px;
