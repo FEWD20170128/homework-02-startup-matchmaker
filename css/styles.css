@@ -4,9 +4,8 @@
 
 .top-nav {
   background-color: black;
-  /*height: 125px;*/
-  height: auto;
-  min-height: 125px;
+  min-height: 85px;
+  overflow: auto;
   border-bottom: 5px solid yellow;
   }
 
@@ -15,7 +14,7 @@
     font-family: "Merriweather", georgia;
     font-size: 32px;
     float: left;
-    padding-top: 40px;
+    padding-top: 20px;
     font-weight: 700;
     margin: 0px 0px 0px 1em;
     }
@@ -23,11 +22,13 @@
   .nav-links {
     float: right;
     margin: 0px;
-    padding-top: 40px;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-bottom: 15px;
     }
 
     li.main-link {
-      margin-right: 15px;
+      margin-right: 10px;
       color: white;
       font-family: "Oswald", arial, sans-serif;
       font-size: 24px;
@@ -37,7 +38,7 @@
       }
 
     li.sub-link {
-      margin-right: 15px;
+      margin-right: 10px;
       color: white;
       font-family: "Source+Sans+Pro", verdana, sans-serif;
       font-size: 20px;
@@ -50,6 +51,7 @@
   height: 75px;
   width: 100%;
   box-shadow: 0px 2px 5px grey;
+  position: relative;
   }
 
   .tag-line-copy {
@@ -85,8 +87,8 @@
   }
 
   .main-bar-aside {
-    width: 32%;
-    height: 400px;
+    width: 28%;
+    height: 500px;
     float: right;
     margin-right: 3em;
     margin-top: 30px;
@@ -100,7 +102,7 @@
 
   .inset-headline {
     font-family: "Source+Sans+Pro", verdana, sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     }
 
 .yellow-button {
@@ -113,16 +115,16 @@
   text-transform: uppercase;
   font-weight: 700;
   position: relative;
-  top: 55%;
-  left: 70%;
+  top: 75%;
+  left: 71%;
   border: none;
   box-shadow: 0px 3px 0px #C6CC00;
   }
 
 p {
   font-family: "Source+Sans+Pro", verdana, sans-serif;
-  font-size: 18px;
-  line-height: 1.8em;
+  font-size: 20px;
+  line-height: 1.6em;
 }
 
 button {
