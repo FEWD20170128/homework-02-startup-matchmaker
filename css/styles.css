@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #000;
+  height: 150px;
+  border-bottom: 10px solid #f4ee42;
+  padding: 5px, 0px, 20px, 10px;
+}
+h1 {
+  color: #f4ee42;
+  font-family: Times, Garamond, serif;
+  font-size: 45px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+a {
+  text-decoration: none;
+}
+nav {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 20px;
+  text-align: right;
+  padding-right: 30px;
+}
+  nav a {
+    color: white;
+    padding-left: 10px;
+  }
+  .find {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Impact, "Franklin Gothic Bold", "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+    letter-spacing: 1px;
+  }
+
+subheader {
+  background-color: #D3D3D3;
+  height: 70px;
+  display: block;
+  margin-top: 0px;
+  border: 1px solid #778899; 
+}
+  .slogan {
+    padding-top: 15px;
+    padding bottom: 20px;
+    text-align: center;
+    font-family: Goudy, "Times New Roman", serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 0px;
+    letter-spacing: -1.2px;
+  }
+  .taste {
+    color: #808080;
+    text-decoration: line-through;
+  }
+  .underline {
+    border-bottom: 3px solid  #f4ee42;
+  }
+main {
+  background-image: url("../images/coworking.jpg");
+  height: 450px;
+}
+
+article {
+  background: rgba(255,255,255,.8);
+  height: 400px;
+  width: 330px;
+  margin: 25px;
+  float: right;
+  box-shadow: 1px 1px 1px 1px #778899;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+  article h2 {
+    font-family: arial, helvetica, sans-serif;
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  article button {
+    background: #f4ee42;
+  }
+p {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+  line-height: 30px;
+}
+button {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  margin-top: 15px;
+  letter-spacing: 1px;
+}
+  button a {
+    font-size: 15px;
+    text-align: center;
+    font-family: Impact, "Franklin Gothic Bold", "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+  }
+
+aside {
+  height: 100%;
+  width: 300px;
+  margin: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  float: left;
+  border-right: .05px solid #C0C0C0;
+}
+  aside h2 {
+    font-family: Garamond, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+    text-align: left;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  aside button {
+    background: #D3D3D3;
+  }
+.profile {
+  padding-right: 30px;
+}
+.designer {
+  border-right: none;
+  padding-left: 10px;
+}
+.call-outs {
+  padding-top: 10px;
+  margin-bottom: 10px;
+  clear: both;
+  overflow: auto;
+  border-top: .05px solid black;
+}
+footer {
+  background-color: #2C2729;
+  height: 60px;
+  margin-top: 10px;
+  color: white;
+  clear: both;
+}
+.footer-text {
+  padding-top: 15px;
+  font-size: 20px;
+  padding-left: 20px;
+}
+.container {
+   width: 960px;
+  margin: 0 auto;
+}
