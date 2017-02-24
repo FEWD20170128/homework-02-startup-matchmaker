@@ -20,7 +20,7 @@ footer {
   font-size: 20px;
   background-color: black;
   border: 1px solid #333;
-  margin-top: 15px;
+  margin-top: 77px;
   float: left;
   width: 960px;
   color: white;
@@ -58,12 +58,11 @@ p {
 }
 
 .bigbox {
-  height: 615px;
+  height: 631px;
   width: 100%;
   position: relative;
   display: block;
   background-image: url("../images/coworking.jpg");
-
 }
 
 .section {
@@ -90,6 +89,7 @@ p {
 .nav1 {
   font-family: 'Oswald', sans-serif;
   font-size: 22px;
+  font-style: bold;
 }
 
 .nav2 {
@@ -104,14 +104,13 @@ p {
 
 .aside {
   width: 350px;
-  height: 375px;
+  height: 475px;
   font-family: 'Sintony', sans-serif;
   margin: 20px;
   background-color: #dcdcdc;
-  padding: 37px;
   opacity: 0.7;
   float: right;
-  text-align: center;
+  text-align: left;
 }
    
 .headline {
@@ -158,8 +157,15 @@ p {
 }
 
 .img {
-  border: 2px solid black;
   width: 100%;
+}
+
+.create-container {
+  display: block;
+  text-align: center;
+  position: relative;
+  top: 223px;
+  left: 1px;
 }
 
 
