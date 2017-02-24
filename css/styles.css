@@ -15,29 +15,21 @@ header {
   margin-bottom: -10px;
 }
 
-article{
-  background-color: white;
-  width: 300px;
-  height: 400px;
-}
-
-img {
-max-width: 100%;
-}
-
-
 footer {
-  height: 50px;
-  width: 100%;
-  color: black;
-  padding: 1px;
-  padding-left: 11px;
+  height: 75px;
+  font-size: 20px;
+  background-color: black;
+  border: 1px solid #333;
+  margin-top: 15px;
+  float: left;
+  width: 960px;
+  color: white;
+  padding-top:24px;
+  padding-left: 9px;
 }
 
 nav {
   float: right;
-  width: 77%;
- 
 }
 
 hr  {
@@ -50,10 +42,7 @@ hr  {
 
 a {
   text-decoration: none;
-}
-
-h1 {
-  font-style: italic;
+  margin: 0 auto;
 }
 
 span {
@@ -61,46 +50,52 @@ text-decoration: none;
 border-bottom: 3px solid yellow;
 }
 
+
+p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
 .section {
   height: 175px;
-  background-color: white;
   float: left;
-  width: 30%;
+  width: 33%;
 }
+
 
 
 .center-section {
-  margin-left: 3%;
-  margin-right: 3%;
+  border-left: 1px solid #c0c0c0;
+  border-right: 1px solid #c0c0c0;
 }
 
 .logo {
+  font-family: 'Merriweather', serif;
   color: yellow;
-  font-size: 36px;
+  font-size: 34px;
   position: relative;
   top: 16px;
-  left: 10px;
+  left: 20px;
+  margin-top: 0px;
 }
 
 .nav1 {
-  font-family: 'Passion One', cursive san-serif;
-  font-size: 32px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 22px;
 }
 
 .nav2 {
-  font-family: 'Sintony', sans-serif;
-  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
 }
 
 .navbar {
-  margin-right: 20px;
+  margin-right: 18px;
   color: white;
 }
 
-.floater {
-  float: right;
-  position: relative;
-  bottom: 530px;
+.aside {
   width: 350px;
   height: 375px;
   font-family: 'Sintony', sans-serif;
@@ -108,7 +103,9 @@ border-bottom: 3px solid yellow;
   background-color: #dcdcdc;
   padding: 37px;
   opacity: 0.7;
+  float: right;
 }
+
     
 .headline {
   display: block;
@@ -122,6 +119,34 @@ border-bottom: 3px solid yellow;
   color: #808080;
 }
 
+.section-container {
+  display: inline-block;
+  float: left;
+}
 
+.button1 {
+  background-color: #C0C0C0;
+  border-bottom: 3px solid #808080;
+  border-radius: 5%;
+  padding: 10px;
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+}
+
+.button2 {
+  background-color: yellow;
+  border: 0px;
+  font-size: 25px;
+}
+
+.quote {
+  font-style: italic;
+}
+
+.button-container {
+  float: clear;
+  text-align: center;
+}
 
 
