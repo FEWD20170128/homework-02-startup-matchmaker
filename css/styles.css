@@ -112,6 +112,7 @@ p {
   opacity: 0.7;
   float: right;
   text-align: left;
+  box-shadow: 10px 10px 5px grey;
 }
    
 .headline {
